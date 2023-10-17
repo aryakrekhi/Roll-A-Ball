@@ -75,7 +75,7 @@ public class PlayerControllerScript : MonoBehaviour
         countText.text = "Count: " + count.ToString();
 
         // Check if the count has reached or exceeded the win condition.
-        if (count >= 5)
+        if (count >= 6)
         {
             winTextObject.SetActive(true);
         }
